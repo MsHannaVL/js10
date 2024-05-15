@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>index86v3</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    window.addEventListener('resize', function() {
+  let elementsWithHref = document.querySelectorAll('[href]');
+  for (let i = 0; i < elementsWithHref.length; i++) {
+    elementsWithHref[i].style.display = 'none';
+  }
+});
+  </script>
+</head>
+<body>
+    <p><a href="#">Понедельник</a></p>
+    <p>Понедельник</p>
+    <p><a href="#">Вторник</a></p>
+    <p>Вторник</p>
+    <p>Среда</p>
+    <p>Четверг</p>
+    <p>Пятница</p>
+    <p><a href="#">Пятница</a></p>
+</body>
+</html>
